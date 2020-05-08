@@ -152,8 +152,9 @@ p{
 
 footer{
     width: 800px;
-    height: 500px;
+    height: 800px;
     margin-left: 20%;
+    margin-bottom: 50px;
 }
 footer h2{
     margin-top: 150px;
