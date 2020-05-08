@@ -1,0 +1,151 @@
+@font-face{
+    font-family: "miriam-bold";
+    src: url("../fonts/MiriamLibre-Bold.ttf")
+}
+@font-face{
+    font-family: "miriam";
+    src: url("../fonts/MiriamLibre-Regular.ttf")
+}
+
+.mobile-screen{
+    display:none;
+}
+@media only screen and (max-width: 768px) {
+
+    .mobile-screen{
+        display: flex;
+        margin: 10%;
+        width: 497px;
+        height: 750px;
+        background-image: url("../images/mobile.png");
+        background-position: center; 
+    }
+    .deckstopscreen{
+        display:none;
+    }
+}
+
+
+h1 {
+    font-family: "miriam-bold";
+    font-size: 40px;
+    color:#e75116;
+
+}
+h2 {
+    font-size: 30px;
+    font-family: "miriam";
+    color:#e75116;
+}
+
+#screen1{
+    padding-top:-10;
+    width: 100%;
+    background-image: url("../images/screen1.png");
+    background-repeat: no-repeat
+
+}
+#screen1 h1{
+    padding-top: 35%;
+    margin-left: 20%;
+}
+#screen1 h2{
+    margin-left: 20%;
+}
+
+#screen2{
+    padding-top: 40px;
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: grey;
+}
+#texto{
+    width: 600px;
+    
+}
+
+#foto img{
+    width: 255px;
+}
+
+#redes img{
+    max-width: 40px;
+    
+}
+
+
+
+#screen3{
+    padding-top:40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-color: ;
+}
+#screen3 h1{
+    margin-left: 20%;
+}
+.cards{
+    width: 800px;
+    margin-top: -4px;
+    margin-left:20%;
+    display: flex;
+    flex-flow: column;
+}
+
+#DeAquilogo{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/DeAqui-image.png");
+    background-repeat: none;
+    background-size: contain;
+    transition: 0.6s;
+}
+
+#DeAquilogo:hover {
+    background-image: url("../images/DeAqui-mockup.png");
+    background-repeat: none;
+    transition: 0.6s;
+}
+#spotify{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/Spotify-image.png");
+    background-repeat: none;
+    background-size: contain;
+    transition: 0.6s;
+}
+
+#spotify:hover {
+    background-image: url("../images/Spotify-Mock-Up.png");
+    background-repeat: none;
+    transition: 0.6s;
+}
+#cestaverde{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/Cestaverde-image.png");
+    background-repeat: none;
+    background-size: contain;
+    transition: 0.6s;
+}
+
+#cestaverde:hover {
+    background-image: url("../images/Cesta-Verde-Mock-Up.png");
+    background-repeat: none;
+    transition: 0.6s;
+}
+
+footer{
+    height: 300px;
+    text-align: center;
+}
+footer h2{
+    margin-top: 150px;
+}
