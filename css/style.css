@@ -155,3 +155,6 @@ footer h2{
 }
 
 
+git add .
+git commit -m "Portfolio v.1"
+git push -u origin master
